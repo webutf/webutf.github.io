@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "static/favicon.ico"
   },
   {
-    "revision": "f6177cb581d89aea11e12f1f6a13e975",
+    "revision": "d27c870f3027713b283a7b928b33e786",
     "url": "static/manifest.json"
   },
   {
