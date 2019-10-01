@@ -1,0 +1,17 @@
+{
+	"name": "前端年代",
+	"short_name": "前端年代",
+	"start_url": "/?from=homescreen",
+	"display": "standalone",
+	"description": "前端年代",
+	"orientation": "portrait",
+	"theme_color": "#3f51b5",
+	"background_color": "#fff",
+	"icons": [
+		{
+			"src": "../assets/da.jpg",
+			"sizes": "144x144",
+			"type": "image/jpg"
+		}
+	]
+}
