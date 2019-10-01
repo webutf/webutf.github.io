@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/xiao.jpg"
   },
   {
-    "revision": "024149f500f5512cc67e5e194dd813ca",
+    "revision": "612b069e7c5ade63d02603df0685620d",
     "url": "index.html"
   },
   {
