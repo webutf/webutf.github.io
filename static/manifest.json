@@ -9,9 +9,9 @@
 	"background_color": "#fff",
 	"icons": [
 		{
-			"src": "../assets/da.jpg",
+			"src": "../assets/deskicon.png",
 			"sizes": "144x144",
-			"type": "image/jpg"
+			"type": "image/png"
 		}
 	]
 }

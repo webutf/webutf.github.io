@@ -12,11 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/da.jpg"
   },
   {
+    "revision": "771842a5f9fedb15bcecc435c592593e",
+    "url": "assets/deskicon.png"
+  },
+  {
     "revision": "07bdf265c031fc142c5292fa7d37957a",
     "url": "assets/xiao.jpg"
   },
   {
-    "revision": "40a5d8046a7ed454e1c1585080e6b031",
+    "revision": "747120547fc733f6ad2d2e3de3d2dfda",
     "url": "index.html"
   },
   {
@@ -48,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "static/favicon.ico"
   },
   {
-    "revision": "a49fa3ee9b87cf68b701ab2453525eab",
+    "revision": "fede75ecd41ed9d17d52ba10fd6d88d5",
     "url": "static/manifest.json"
   },
   {
