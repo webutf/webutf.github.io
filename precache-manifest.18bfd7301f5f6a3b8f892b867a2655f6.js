@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/xiao.jpg"
   },
   {
-    "revision": "e619c33527946b5c774962958c26baaa",
+    "revision": "fc6f98569552a2d7ee4764e7151a02b6",
     "url": "index.html"
   },
   {
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "51d3b3c8a7fdfe2f573057d7a96c04d9",
     "url": "static/favicon.ico"
+  },
+  {
+    "revision": "587c37488cb060f2dffa18bc0cc9a684",
+    "url": "static/favicon64.ico"
   },
   {
     "revision": "d4e90c05ff939de14251958bc0e2b862",
