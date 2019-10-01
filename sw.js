@@ -1,0 +1,46 @@
+!function () { "use strict"; try { self["workbox:sw:4.3.1"] && _() } catch (t) { } const t = "https://storage.googleapis.com/workbox-cdn/releases/4.3.1", e = { backgroundSync: "background-sync", broadcastUpdate: "broadcast-update", cacheableResponse: "cacheable-response", core: "core", expiration: "expiration", googleAnalytics: "offline-ga", navigationPreload: "navigation-preload", precaching: "precaching", rangeRequests: "range-requests", routing: "routing", strategies: "strategies", streams: "streams" }; self.workbox = new class { constructor() { return this.v = {}, this.t = { debug: "localhost" === self.location.hostname, modulePathPrefix: null, modulePathCb: null }, this.s = this.t.debug ? "dev" : "prod", this.o = !1, new Proxy(this, { get(t, s) { if (t[s]) return t[s]; const o = e[s]; return o && t.loadModule(`workbox-${o}`), t[s] } }) } setConfig(t = {}) { if (this.o) throw new Error("Config must be set before accessing workbox.* modules"); Object.assign(this.t, t), this.s = this.t.debug ? "dev" : "prod" } loadModule(t) { const e = this.i(t); try { importScripts(e), this.o = !0 } catch (s) { throw console.error(`Unable to import module '${t}' from '${e}'.`), s } } i(e) { if (this.t.modulePathCb) return this.t.modulePathCb(e, this.t.debug); let s = [t]; const o = `${e}.${this.s}.js`, r = this.t.modulePathPrefix; return r && "" === (s = r.split("/"))[s.length - 1] && s.splice(s.length - 1, 1), s.push(o), s.join("/") } } }();
+//# sourceMappingURL=workbox-sw.js.map
+console.log(456465)
+var CACHE_NAME = "H5X_cache_v1.0.0";
+
+self.addEventListener('fetch', function(e) {
+	console.log(fetch)
+})
+
+self.addEventListener('install', function(e) {
+	e.waitUntil(self.skipWaiting())
+})
+
+self.addEventListener('activate', function(e) {
+	e.waitUntil(clients.claim())
+})
+
+if (workbox) {
+	console.log(456465465797)
+}
+
+workbox.routing.registerRoute(
+	/\.min\.js$/,
+	new workbox.strategies.NetworkFirst()
+);
+
+workbox.routing.registerRoute(
+	/\.css/,
+	new workbox.strategies.StaleWhileRevalidate({
+		cacheName: 'css-cache',
+	})
+);
+
+workbox.routing.registerRoute(
+	/\.(?:png|jpg|jpeg|svg|gif)$/,
+	// Use the cache if it's available.
+	new workbox.strategies.CacheFirst({
+		cacheName: 'image-cache',
+		plugins: [
+			new workbox.expiration.Plugin({
+				maxEntries: 20,
+				maxAgeSeconds: 7 * 24 * 60 * 60,
+			})
+		],
+	})
+);
