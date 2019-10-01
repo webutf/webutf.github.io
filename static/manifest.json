@@ -1,7 +1,7 @@
 {
 	"name": "前端年代",
 	"short_name": "前端年代",
-	"start_url": "index.html?from=homescreen",
+	"start_url": "../index.html?from=homescreen",
 	"display": "standalone",
 	"description": "前端年代",
 	"orientation": "portrait",
@@ -9,23 +9,28 @@
 	"background_color": "#fff",
 	"icons": [
 		{
-			"src": "assets/192.png",
+			"src": "../assets/192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "assets/144.png",
+			"src": "../assets/144.png",
 			"sizes": "144x144",
 			"type": "image/png"
 		},
 		{
-			"src": "assets/96.png",
+			"src": "../assets/96.png",
 			"sizes": "96x96",
 			"type": "image/png"
 		},
 		{
-			"src": "assets/48.png",
+			"src": "../assets/48.png",
 			"sizes": "48x48",
+			"type": "image/png"
+		},
+		{
+			"src": "../assets/36.png",
+			"sizes": "36x36",
 			"type": "image/png"
 		}
 	]

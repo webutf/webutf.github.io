@@ -12,6 +12,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/192.png"
   },
   {
+    "revision": "d43aebddb782b8107d7ce93d2d231db9",
+    "url": "assets/36.png"
+  },
+  {
     "revision": "a57a53ef741b723167a787bde7030b8d",
     "url": "assets/48.png"
   },
@@ -36,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/xiao.jpg"
   },
   {
-    "revision": "2a96682c145f141f180d6cfab8c3e78d",
+    "revision": "e619c33527946b5c774962958c26baaa",
     "url": "index.html"
   },
   {
@@ -46,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "94b6ba6a8b66a683b99c",
     "url": "main.846ecfd1.css"
-  },
-  {
-    "revision": "6affeb01fed9d518adb227845a94a032",
-    "url": "manifest.json"
   },
   {
     "revision": "0698db28acdc46c546e728afb374deac",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "51d3b3c8a7fdfe2f573057d7a96c04d9",
     "url": "static/favicon.ico"
+  },
+  {
+    "revision": "d4e90c05ff939de14251958bc0e2b862",
+    "url": "static/manifest.json"
   },
   {
     "revision": "d171434e291d1f746827e68992d08d94",
