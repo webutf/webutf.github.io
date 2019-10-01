@@ -4,6 +4,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "CNAME"
   },
   {
+    "revision": "ad50b7d765a28b05be06266ff10b9535",
+    "url": "assets/144.png"
+  },
+  {
+    "revision": "aafdce638d1657923d5e3ae0a1072148",
+    "url": "assets/192.png"
+  },
+  {
+    "revision": "a57a53ef741b723167a787bde7030b8d",
+    "url": "assets/48.png"
+  },
+  {
+    "revision": "ca5f84a00e652316c2239628edf8cafc",
+    "url": "assets/96.png"
+  },
+  {
     "revision": "96c0812a89bfa930276e94a694d82d98",
     "url": "assets/da.96c0812.jpg"
   },
@@ -48,10 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "mods/lib/vue.min.js"
   },
   {
-    "url": "precache-manifest.9dc26b769216e7ac299c2bd094963786.js"
+    "url": "precache-manifest.eec462f7562ee085977e4da2068e4e84.js"
   },
   {
-    "revision": "7c39d0bb23cb15ddced93c0f93d10356",
+    "revision": "1271907a19c2fb38e167221ac841385d",
     "url": "service-worker.js"
   },
   {
@@ -59,7 +75,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "static/favicon.ico"
   },
   {
-    "revision": "7e5ee09f68b0959375cdce6682c3b4f6",
+    "revision": "89ed69c6512c59f85f707086edde8f48",
     "url": "static/manifest.json"
   },
   {
