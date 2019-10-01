@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/xiao.jpg"
   },
   {
-    "revision": "26dd0c81486c02ee53e788d420f4fa9c",
+    "revision": "2a96682c145f141f180d6cfab8c3e78d",
     "url": "index.html"
   },
   {
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "94b6ba6a8b66a683b99c",
     "url": "main.846ecfd1.css"
+  },
+  {
+    "revision": "6affeb01fed9d518adb227845a94a032",
+    "url": "manifest.json"
   },
   {
     "revision": "0698db28acdc46c546e728afb374deac",

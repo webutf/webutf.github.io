@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/xiao.jpg"
   },
   {
-    "revision": "26dd0c81486c02ee53e788d420f4fa9c",
+    "revision": "2a96682c145f141f180d6cfab8c3e78d",
     "url": "index.html"
   },
   {
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "94b6ba6a8b66a683b99c",
     "url": "main.846ecfd1.css"
+  },
+  {
+    "revision": "6affeb01fed9d518adb227845a94a032",
+    "url": "manifest.json"
   },
   {
     "revision": "0698db28acdc46c546e728afb374deac",
@@ -64,10 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "mods/lib/vue.min.js"
   },
   {
-    "url": "precache-manifest.75a1f925ed2f9ef670675fb3b4b26049.js"
+    "url": "precache-manifest.b579515086bb5323cd31fd5d6d3386e4.js"
   },
   {
-    "revision": "f6a80cc771a0b39fea24c9b796223e92",
+    "revision": "5c7a85a396a1a56abb4008b995b92db2",
     "url": "service-worker.js"
   },
   {
