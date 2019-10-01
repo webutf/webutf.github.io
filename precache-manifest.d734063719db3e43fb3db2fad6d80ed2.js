@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/xiao.jpg"
   },
   {
-    "revision": "e619c33527946b5c774962958c26baaa",
+    "revision": "26dd0c81486c02ee53e788d420f4fa9c",
     "url": "index.html"
   },
   {
@@ -64,12 +64,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "mods/lib/vue.min.js"
   },
   {
-    "revision": "51d3b3c8a7fdfe2f573057d7a96c04d9",
-    "url": "static/favicon.ico"
+    "url": "precache-manifest.75a1f925ed2f9ef670675fb3b4b26049.js"
   },
   {
-    "revision": "c272c6fcdf7baf65282305ccdf78b1eb",
-    "url": "static/manifest.json"
+    "revision": "f6a80cc771a0b39fea24c9b796223e92",
+    "url": "service-worker.js"
+  },
+  {
+    "revision": "51d3b3c8a7fdfe2f573057d7a96c04d9",
+    "url": "static/favicon.ico"
   },
   {
     "revision": "d171434e291d1f746827e68992d08d94",
