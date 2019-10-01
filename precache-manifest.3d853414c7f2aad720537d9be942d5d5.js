@@ -48,11 +48,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "mods/lib/vue.min.js"
   },
   {
+    "url": "precache-manifest.9dc26b769216e7ac299c2bd094963786.js"
+  },
+  {
+    "revision": "7c39d0bb23cb15ddced93c0f93d10356",
+    "url": "service-worker.js"
+  },
+  {
     "revision": "51d3b3c8a7fdfe2f573057d7a96c04d9",
     "url": "static/favicon.ico"
   },
   {
-    "revision": "d27c870f3027713b283a7b928b33e786",
+    "revision": "7e5ee09f68b0959375cdce6682c3b4f6",
     "url": "static/manifest.json"
   },
   {
