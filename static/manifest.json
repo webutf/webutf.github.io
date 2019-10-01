@@ -1,7 +1,7 @@
 {
 	"name": "前端年代",
 	"short_name": "前端年代",
-	"start_url": "index.html?from=homescreen",
+	"start_url": "../index.html?from=homescreen",
 	"display": "standalone",
 	"description": "前端年代",
 	"orientation": "portrait",
