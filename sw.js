@@ -40,21 +40,30 @@ self.addEventListener('activate', function (e) {
 
 self.addEventListener('fetch', function (e) {
 	e.respondWith(
-		caches.match(e.request).then(hit => {
-			if (hit) return hit;
+		caches.match(e.request, { ignoreSearch: true }).then(hit => {
+			let url = e.request.url;
+			let method = e.request.method;
+			// if (hit && !url.includes('.html') && method != 'POST') return hit;
 			const fetchRequest = e.request.clone();
-			return fetch(fetchRequest).then(response => {
+			let fetchPromise = fetch(fetchRequest).then(response => {
+				console.log(64546546465)
 				if (!response || response.status !== 200
 					|| !response.headers.get('Content-type').match(/image|javascript|test\/css/i)) {
 					return response;
 				}
-				const responseClone = response.clone();
-				caches.open(CACHE_NAME).then(function (cache) {
-					cache.put(fetchRequest.request, responseClone);
-				});
+
+				if (method != 'POST') {
+					const responseClone = response.clone();
+					caches.open(CACHE_NAME).then(function (cache) {
+						cache.put(e.request, responseClone);
+					});
+				}
 				return response;
 			}).catch(() => {
+				if (hit) return hit;
 			});
+
+			return hit || fetchPromise;
 		})
 	)
 })
