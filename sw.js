@@ -4,7 +4,14 @@ var cacheList = [
 	"./mods/lib/jquery.min.js",
 	"./mods/common/rem.js",
 	"./static/favicon.ico",
-	"./static/favicon64.ico"
+	"./static/favicon64.ico",
+	"./assets/36.png",
+	"./assets/48.png",
+	"./assets/96.png",
+	"./assets/144.png",
+	"./assets/192.png",
+	"./assets/deskicon.png",
+	"./assets/da.jpg"
 ]
 
 self.addEventListener('install', function (e) {
@@ -37,7 +44,6 @@ self.addEventListener('fetch', function (e) {
 			if (hit) return hit;
 			const fetchRequest = e.request.clone();
 			return fetch(fetchRequest).then(response => {
-				console.log(response.headers.get('Content-type').match(/image|javascript|test\/css/i))
 				if (!response || response.status !== 200
 					|| !response.headers.get('Content-type').match(/image|javascript|test\/css/i)) {
 					return response;
