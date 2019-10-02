@@ -15,7 +15,8 @@ self.addEventListener('install', function (e) {
 
 self.addEventListener('activate', function (e) {
 	e.waitUntil(
-		Promise.all(
+		Promise.all([
+			clients.claim(),
 			caches.keys().then(cacheNames => {
 				return cacheNames.map(name => {
 					if (name != CACHE_NAME) {
@@ -23,12 +24,10 @@ self.addEventListener('activate', function (e) {
 					}
 				})
 			})
-		)
-	).then(() => {
-		return self.clients.claim()
-	})
+		])
+	)
 })
 
 self.addEventListener('fetch', function (e) {
-	console.log(fetch)
+	
 })
