@@ -33,27 +33,22 @@ self.addEventListener('activate', function (e) {
 
 self.addEventListener('fetch', function (e) {
 	e.respondWith(
-		caches.match(e.request)
-			.then(hit => {
-				if (hit) return hit;
-				const fetchRequest = e.request.clone();
-				return onlineRequest(fetchRequest);
-			})
+		caches.match(e.request).then(hit => {
+			if (hit) return hit;
+			const fetchRequest = e.request.clone();
+			return fetch(fetchRequest).then(response => {
+				console.log(response.headers.get('Content-type').match(/image|javascript|test\/css/i))
+				if (!response || response.status !== 200
+					|| !response.headers.get('Content-type').match(/image|javascript|test\/css/i)) {
+					return response;
+				}
+				const responseClone = response.clone();
+				caches.open(CACHE_NAME).then(function (cache) {
+					cache.put(fetchRequest.request, responseClone);
+				});
+				return response;
+			}).catch(() => {
+			});
+		})
 	)
 })
-
-function onlineRequest(fetchRequest) {
-	return fetch(fetchRequest).then(response => {
-		if (!response || response.status !== 200
-			|| !response.headers.get('Content-type').match(/image|javascript|test\/css/i)) {
-			return response;
-		}
-		const responseClone = response.clone();
-		caches.open(CACHE_NAME)
-			.then(function (cache) {
-				cache.put(fetchRequest.request, responseClone);
-			});
-		return response;
-	}).catch(() => {
-	});
-}
