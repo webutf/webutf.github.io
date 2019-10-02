@@ -61,6 +61,7 @@ self.addEventListener('fetch', function (e) {
 			}).catch(() => {
 				if (hit) return hit;
 			});
+			if (url.includes('.html')) return fetchPromise;
 			return hit || fetchPromise;
 		})
 	)
