@@ -2,7 +2,9 @@ var CACHE_NAME = "H5X_cache_v1.0.0";
 var cacheList = [
 	"./mods/lib/vue.min.js",
 	"./mods/lib/jquery.min.js",
-	"./mods/common/rem.js"
+	"./mods/common/rem.js",
+	"./assets/",
+	"./static/"
 ]
 
 self.addEventListener('install', function (e) {
