@@ -46,7 +46,6 @@ self.addEventListener('fetch', function (e) {
 			// if (hit && !url.includes('.html') && method != 'POST') return hit;
 			const fetchRequest = e.request.clone();
 			let fetchPromise = fetch(fetchRequest).then(response => {
-				console.log(64546546465)
 				if (!response || response.status !== 200
 					|| !response.headers.get('Content-type').match(/image|javascript|test\/css/i)) {
 					return response;
@@ -62,7 +61,6 @@ self.addEventListener('fetch', function (e) {
 			}).catch(() => {
 				if (hit) return hit;
 			});
-
 			return hit || fetchPromise;
 		})
 	)
