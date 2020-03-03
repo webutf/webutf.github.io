@@ -21,7 +21,7 @@ var qianke = [
   },
   {
     name: "npm包源码解读",
-    href: "http://千克.com/react"
+    href: "http://千克.com/npm"
   }
 ]
 
