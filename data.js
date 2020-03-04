@@ -12,6 +12,7 @@ var data = {
   node: {
     name: "node相关文档",
     data: [
+      { name: "npm", href: "https://www.npmjs.com" },
       { name: "node中文", href: "http://nodejs.cn/api" },
       { name: "node官网", href: "https://nodejs.org/zh-cn" },
       { name: "Express", href: "https://www.expressjs.com.cn" },
@@ -61,7 +62,6 @@ var data = {
   tool: {
     name: "工具",
     data: [
-      { name: "npm", href: "https://www.npmjs.com" },
       { name: "github", href: "https://github.com" },
       { name: "Iconfont", href: "https://www.iconfont.cn" },
       { name: "BootCDN", href: "https://www.bootcdn.cn" },
