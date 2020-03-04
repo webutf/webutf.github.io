@@ -23,6 +23,7 @@ var data = {
   web: {
     name: "前端框架、库",
     data: [
+      { name: "ES6入门教程", href: "https://es6.ruanyifeng.com" },
       { name: "jQuery", href: "http://jquery.cuishifeng.cn" },
       { name: "jQuery官网", href: "https://www.jquery123.com/" },
       { name: "Vue", href: "https://cn.vuejs.org" },
