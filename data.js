@@ -2,11 +2,11 @@ var data = {
   qianke: {
     name: "个人网站笔记整理",
     data: [
-      { name: "XUI框架", href: "http://千克.com/xui" },
-      { name: "js函数宝典", href: "http://千克.com/baodian" },
-      { name: "Vue实践", href: "http://千克.com/vue" },
-      { name: "React实践", href: "http://千克.com/react" },
-      { name: "npm包源码解读", href: "http://千克.com/npm" },
+      { name: "XUI框架", href: "http://webutf.gitee.io/xui" },
+      { name: "js函数宝典", href: "http://webutf.gitee.io/baodian" },
+      { name: "Vue实践", href: "http://webutf.gitee.io/vue" },
+      { name: "React实践", href: "http://webutf.gitee.io/react" },
+      { name: "npm包源码解读", href: "http://webutf.gitee.io/npm" },
     ]
   },
   node: {
