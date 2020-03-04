@@ -25,11 +25,17 @@ var data = {
     data: [
       { name: "jQuery", href: "http://jquery.cuishifeng.cn" },
       { name: "jQuery官网", href: "https://www.jquery123.com/" },
-      { name: "Zepto", href: "https://zeptojs.bootcss.com" },
+      { name: "Zepto", href: "http://www.zeptojs.cn" },
       { name: "Vue", href: "https://cn.vuejs.org" },
-      { name: "NuxtJS", href: "https://www.nuxtjs.cn" },
       { name: "React", href: "https://react.docschina.org" },
+      { name: "Lodash", href: "https://www.lodashjs.com" },
+      { name: "underscore", href: "http://underscorejs.org" },
+      { name: "underscore中文", href: "https://underscorejs.bootcss.com" },
+      { name: "NuxtJS", href: "https://www.nuxtjs.cn" },
       { name: "NextJS", href: "https://www.nextjs.cn" },
+      { name: "Babel", href: "https://www.babeljs.cn" },
+      { name: "Preact", href: "https://preactjs.com" },
+      { name: "Preact中文", href: "https://preact.bootcss.com" },
     ]
   },
   ui: {
@@ -43,14 +49,17 @@ var data = {
   tool: {
     name: "工具",
     data: [
+      { name: "github", href: "https://github.com" },
+      { name: "npm", href: "https://www.npmjs.com" },
+      { name: "BootCDN", href: "https://www.bootcdn.cn" },
       { name: "webpack", style: "1", href: "https://www.webpackjs.com" },
       { name: "gulp", href: "https://www.gulpjs.com.cn" },
       { name: "less", href: "https://less.bootcss.com" },
       { name: "sass", href: "https://www.sasscss.com" },
-      { name: "npm", href: "https://www.npmjs.com" },
-      { name: "github", href: "https://github.com" },
-      { name: "npm", href: "https://www.npmjs.com" },
-      { name: "BootCDN", href: "https://www.bootcdn.cn" },
+      { name: "npm中文文档", href: "https://www.npmjs.cn" },
+      { name: "yarn", href: "https://yarn.bootcss.com" },
+      { name: "parcel", href: "https://www.parceljs.cn" },
+      { name: "rollup", href: "https://www.rollupjs.com" },
     ]
   }
 }
