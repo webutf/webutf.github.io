@@ -1,11 +1,18 @@
 @import "./reset.less";
+body {
+  background: #ccc;
+}
 #content {
-  max-width: 960px;
+  max-width: 1200px;
+  min-height: 100%;
+  background: #fff;
   margin: 0 auto;
+  padding: 20px;
+  color: #333;
 }
 .title {
   font-size: 30px;
-  margin: 20px 0;
+  margin-bottom: 20px;
   color: #0ae;
 }
 h3 {
@@ -19,21 +26,41 @@ ul::after {
   display: block;
 }
 li {
-  width: 184px;
-  height: 80px;
+  width: 185px;
+  height: 60px;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   border-radius: 4px;
   float: left;
   border: 1px solid #dfdfdf;
   margin: 0 10px 10px 0;
-  &:nth-child(5n) {
+  &:nth-child(6n) {
     margin-right: 0;
   }
   a {
     display: block;
     width: 100%;
     height: 100%;
-    line-height: 78px;
+    line-height: 58px;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  li {
+    width: 48%;
+    height: 50px;
+    font-size: 16px;
+    flex-shrink: 0;
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+    a {
+      line-height: 48px;
+    }
   }
 }
