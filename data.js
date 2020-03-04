@@ -61,10 +61,11 @@ var data = {
   tool: {
     name: "工具",
     data: [
-      { name: "github", href: "https://github.com" },
       { name: "npm", href: "https://www.npmjs.com" },
+      { name: "github", href: "https://github.com" },
       { name: "Iconfont", href: "https://www.iconfont.cn" },
       { name: "BootCDN", href: "https://www.bootcdn.cn" },
+      { name: "码云", href: "https://gitee.com" },
       { name: "webpack", style: "1", href: "https://www.webpackjs.com" },
       { name: "gulp", href: "https://www.gulpjs.com.cn" },
       { name: "less", href: "https://less.bootcss.com" },
