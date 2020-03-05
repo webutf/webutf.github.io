@@ -76,5 +76,14 @@ var data = {
       { name: "parcel", href: "https://www.parceljs.cn" },
       { name: "rollup", href: "https://www.rollupjs.com" },
     ]
+  },
+  blog: {
+    name: "博客网站工具",
+    data: [
+      { name: "VuePress", href: "https://www.vuepress.cn" },
+      { name: "docify", href: "https://docsify.js.org" },
+      { name: "Docute", href: "https://docute.org/zh" },
+      { name: "Hexo", href: "https://hexo.io/zh-cn" },
+    ]
   }
 }
