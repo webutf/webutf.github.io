@@ -44,9 +44,7 @@ var data = {
       { name: "Lodash", href: "https://www.lodashjs.com" },
       { name: "underscore", href: "http://underscorejs.org" },
       { name: "underscore中文", href: "https://underscorejs.bootcss.com" },
-      { name: "Babel", href: "https://www.babeljs.cn" },
-      { name: "Preact", href: "https://preactjs.com" },
-      { name: "Preact中文", href: "https://preact.bootcss.com" },
+      { name: "Babel", href: "https://www.babeljs.cn" }
     ]
   },
   ui: {
