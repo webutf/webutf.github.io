@@ -16,7 +16,7 @@ var data = {
       { name: "node中文", href: "http://nodejs.cn/api" },
       { name: "node官网", href: "https://nodejs.org/zh-cn" },
       { name: "Koa", href: "https://koa.bootcss.com" },
-      { name: "Egg", href: "https://eggjs.github.io/zh" },
+      { name: "Egg", href: "https://eggjs.org/zh-cn" },
       { name: "Express", href: "https://www.expressjs.com.cn" },
       { name: "EJS", href: "https://ejs.bootcss.com" },
       { name: "art-template", href: "http://aui.github.io/art-template/zh-cn" },
@@ -31,9 +31,7 @@ var data = {
       { name: "Vue", href: "https://cn.vuejs.org" },
       { name: "React", href: "https://react.docschina.org" },
       { name: "NuxtJS", href: "https://www.nuxtjs.cn" },
-      { name: "NextJS", href: "https://www.nextjs.cn" },
-      { name: "Preact", href: "https://preactjs.com" },
-      { name: "Preact中文", href: "https://preact.bootcss.com" },
+      { name: "NextJS", href: "https://www.nextjs.cn" }
     ]
   },
   network: {
@@ -44,7 +42,9 @@ var data = {
       { name: "Lodash", href: "https://www.lodashjs.com" },
       { name: "underscore", href: "http://underscorejs.org" },
       { name: "underscore中文", href: "https://underscorejs.bootcss.com" },
-      { name: "Babel", href: "https://www.babeljs.cn" }
+      { name: "Babel", href: "https://www.babeljs.cn" },
+      { name: "Preact", href: "https://preactjs.com" },
+      { name: "Preact中文", href: "https://preact.bootcss.com" },
     ]
   },
   ui: {
